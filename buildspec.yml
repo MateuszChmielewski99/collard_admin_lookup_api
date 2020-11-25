@@ -8,16 +8,18 @@ phases:
     pre_build:
         commands:
         - npm install typescript --g
-        - npm install
+        - npm install yarn --g
+        - yarn install
     build:
         commands:
-        - npm build
+        - yarn build
 artifacts:
     type: zip
     files:
         - package.json
-        - package-lock.json
+        - yarn.lock
         - tsconfig.json
         - Dockerrun.aws.json
         - 'dist/**/*'
         - Dockerfile
+        - docker-compose.yml
