@@ -11,9 +11,9 @@ const app: Application = express();
 app.use('/country', CountryRouter);
 app.use('/language', LanguageRouter);
 
-app.get('/',(_req:Request, res:Response) => {
+app.get('/', (_req: Request, res: Response) => {
   return res.sendStatus(200);
-})
+});
 
 const port = process.env.PORT || 6000;
 app.listen(port, () => {
