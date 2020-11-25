@@ -6,12 +6,12 @@ import LanguageRouter from './controllers/Langauge/LangaugeController';
 
 bootstrap();
 
-const app:Application = express();
+const app: Application = express();
 
 app.use('/country', CountryRouter);
 app.use('/language', LanguageRouter);
 
 const port = process.env.PORT || 6000;
 app.listen(port, () => {
-  console.log('lookup app and running')
-})
+  console.log('lookup app and running');
+});

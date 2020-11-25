@@ -5,12 +5,15 @@ import ILanguageService from './ILanguageService';
 
 @injectable()
 export class LanguageService implements ILanguageService {
-    constructor(@inject("ILanguageRepository") private languageRepository:ILangaugeRepository){}
+  constructor(
+    @inject('ILanguageRepository')
+    private languageRepository: ILangaugeRepository
+  ) {}
 
-    public async getAll(){
-        const languages = await this.languageRepository.getAll();
-        const dtos = languages?.map(createEntityReference);
-        
-        return dtos;
-    }
+  public async getAll() {
+    const languages = await this.languageRepository.getAll();
+    const dtos = languages?.map(createEntityReference);
+
+    return dtos;
+  }
 }

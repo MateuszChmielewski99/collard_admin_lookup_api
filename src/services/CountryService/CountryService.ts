@@ -5,12 +5,14 @@ import ICountryService from './ICountryService';
 
 @injectable()
 export class CountryService implements ICountryService {
-    constructor(@inject("ICountryRepository") private countryRepository:ICountryRepository){}
+  constructor(
+    @inject('ICountryRepository') private countryRepository: ICountryRepository
+  ) {}
 
-    public async getAll(){
-        const countries = await this.countryRepository.getAll();
-        const dtos = countries?.map(createEntityReference);
-        
-        return dtos;
-    }
+  public async getAll() {
+    const countries = await this.countryRepository.getAll();
+    const dtos = countries?.map(createEntityReference);
+
+    return dtos;
+  }
 }

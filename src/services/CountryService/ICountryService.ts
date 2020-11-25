@@ -1,7 +1,7 @@
-import {EntityReference} from 'collard_admin_models';
+import { EntityReference } from 'collard_admin_models';
 
 interface ICountryService {
-    getAll():Promise<EntityReference[] | undefined>
+  getAll(): Promise<EntityReference[] | undefined>;
 }
 
 export default ICountryService;

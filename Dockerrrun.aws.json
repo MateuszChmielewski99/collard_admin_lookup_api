@@ -1,0 +1,12 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+      "Name": "collard_admin_lookup_api",
+      "Update": "true"
+    },
+    "Ports": [
+      {
+        "ContainerPort": "6000"
+      }
+    ]
+}

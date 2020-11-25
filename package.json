@@ -22,12 +22,13 @@
     "local": "nodemon src/index.ts",
     "seedCntr": "ts-node src/seed/country/country_seed.ts",
     "seedLang": "ts-node src/seed/language/language_seed.ts",
-    "seed": "yarn seedCntr && yarn seedLang"
+    "seed": "yarn seedCntr && yarn seedLang",
+    "prettier-format": "prettier --write src/**/*.ts"
   },
   "peerDependencies": {},
   "husky": {
     "hooks": {
-      "pre-commit": "tsdx lint"
+      "pre-commit": "yarn prettier-format"
     }
   },
   "prettier": {

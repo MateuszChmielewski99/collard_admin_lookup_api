@@ -1,4 +1,4 @@
-export const langauges:{code:string, name:string}[] = [
+export const langauges: { code: string; name: string }[] = [
   {
     code: 'ab',
     name: 'Abkhaz',

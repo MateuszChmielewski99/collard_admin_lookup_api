@@ -1,5 +1,10 @@
 import * as dotenv from 'dotenv';
-import { MongoClient, FilterQuery, CollectionAggregationOptions, ObjectId } from 'mongodb';
+import {
+  MongoClient,
+  FilterQuery,
+  CollectionAggregationOptions,
+  ObjectId,
+} from 'mongodb';
 
 export class BaseRepository<T extends { _id?: string }> {
   private collectionName: string = '';
@@ -13,7 +18,7 @@ export class BaseRepository<T extends { _id?: string }> {
     this.client = new MongoClient(this.connectionUri, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      native_parser:true
+      native_parser: true,
     });
   }
 
@@ -46,7 +51,7 @@ export class BaseRepository<T extends { _id?: string }> {
     try {
       await this.client.connect();
       const db = this.client.db();
-      result = await db.collection(this.collectionName).findOne({ _id:id });
+      result = await db.collection(this.collectionName).findOne({ _id: id });
     } catch (e) {
       console.error(e);
     }
@@ -66,7 +71,7 @@ export class BaseRepository<T extends { _id?: string }> {
     this.client.close();
   }
 
-  public async getByQuery(query: FilterQuery<T>):Promise<T[] | undefined>{
+  public async getByQuery(query: FilterQuery<T>): Promise<T[] | undefined> {
     let result = undefined;
     try {
       await this.client.connect();
@@ -97,7 +102,7 @@ export class BaseRepository<T extends { _id?: string }> {
   public async agregate<U>(
     pipeline?: object[] | undefined,
     options?: CollectionAggregationOptions | undefined
-  ):Promise<U[] | undefined> {
+  ): Promise<U[] | undefined> {
     let result: U[] | undefined = undefined;
     try {
       await this.client.connect();
