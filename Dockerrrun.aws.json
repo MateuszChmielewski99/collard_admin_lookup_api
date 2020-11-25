@@ -1,7 +1,7 @@
 {
     "AWSEBDockerrunVersion": "1",
     "Image": {
-      "Name": "collard_admin_lookup",
+      "Name": "collard-admin-lookup",
       "Update": "true"
     },
     "Ports": [
