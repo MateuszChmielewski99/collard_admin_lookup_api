@@ -22,4 +22,3 @@ artifacts:
         - Dockerrun.aws.json
         - 'dist/**/*'
         - Dockerfile
-        - docker-compose.yml
