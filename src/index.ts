@@ -15,7 +15,7 @@ app.get('/', (_req: Request, res: Response) => {
   return res.sendStatus(200);
 });
 
-const port = process.env.PORT || 6000;
+const port = process.env.PORT || 80;
 app.listen(port, () => {
   console.log('lookup app and running');
 });
