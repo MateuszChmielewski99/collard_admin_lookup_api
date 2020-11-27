@@ -70,11 +70,12 @@ jobs:
         task-definition: task.json
         container-name: sample-app
         image: ${{ steps.build-image.outputs.image }}
-        aws-region: us-east-2
+        
 
     - name: Deploy Amazon ECS task definition
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
       with:
+        aws-region: us-east-2
         task-definition: ${{ steps.task-def.outputs.task-definition }}
         service: collard-admin-lookup-api
         cluster: lookup
