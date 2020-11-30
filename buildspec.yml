@@ -8,6 +8,7 @@ phases:
       - npm install -g typescript
       - npm install -g yarn
       - npm install -g tsdx
+      - npm install -g ts-node
   pre_build:
     commands:
       - echo Prebuild
