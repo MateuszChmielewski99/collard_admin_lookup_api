@@ -25,7 +25,7 @@ cache:
 artifacts:
   type: zip
   files: 
-    - 'dist/**/*'
+    - dist/**/*
     - yarn.lock
     - package.json
     - tsconfig.json

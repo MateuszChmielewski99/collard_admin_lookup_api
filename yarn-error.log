@@ -1,30 +1,30 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe D:\yarn\bin\yarn.js add collard_admin_model
+  C:\Program Files\nodejs\node.exe D:\yarn\bin\yarn.js add yanr
 
 PATH: 
-  C:\Users\48603\Desktop\cmder\vendor\bin;C:\Users\48603\Desktop\cmder\vendor\git-for-windows\cmd;C:\Users\48603\Desktop\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\48603\Desktop\cmder\vendor\conemu-maximus5;C:\Users\48603\Desktop\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;D:\Git\cmd;C:\Program Files\Java\jdk-12.0.1\bin;C:\Gradle\gradle-5.6.1-bin\gradle-5.6.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\wamp64\bin\php\php7.3.5;C:\Program Files\Perforce\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;D:\yarn\bin\;C:\Users\48603\AppData\Local\Microsoft\WindowsApps;C:\Users\48603\AppData\Roaming\npm;C:\Users\48603\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\48603\PyCharm Community Edition 2019.1.3\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\bin;C:\Users\48603\.dotnet\tools;C:\Users\48603\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PhpStorm 2019.2.3\bin;D:\wamp64\bin\php\php7.3.5;C:\Program Files\JetBrains\JetBrains Rider 2019.3.1\bin;D:\Program Files\Docker Toolbox;C:\Program Files (x86)\Android\android-sdk\platform-tools;C:\Users\48603\AppData\Local\Yarn\bin;C:\Program Files\JetBrains\WebStorm 2020.2.3\bin;C:\Users\48603\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;D:\dev\kubectl.exe;C:\Users\48603\Desktop\cmder\vendor\git-for-windows\mingw64\bin;C:\Users\48603\Desktop\cmder\vendor\git-for-windows\usr\bin;C:\Users\48603\Desktop\cmder
+  C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;D:\Git\cmd;C:\Program Files\Java\jdk-12.0.1\bin;C:\Gradle\gradle-5.6.1-bin\gradle-5.6.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\wamp64\bin\php\php7.3.5;C:\Program Files\Perforce\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;D:\yarn\bin\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\48603\AppData\Local\Microsoft\WindowsApps;C:\Users\48603\AppData\Roaming\npm;C:\Users\48603\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\48603\PyCharm Community Edition 2019.1.3\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\bin;C:\Users\48603\.dotnet\tools;C:\Users\48603\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PhpStorm 2019.2.3\bin;;D:\wamp64\bin\php\php7.3.5;C:\Program Files\JetBrains\JetBrains Rider 2019.3.1\bin;;D:\Program Files\Docker Toolbox;C:\Program Files (x86)\Android\android-sdk\platform-tools;C:\Users\48603\AppData\Local\Yarn\bin;C:\Program Files\JetBrains\WebStorm 2020.2.3\bin;;D:\dev\kubectl.exe;;
 
 Yarn version: 
   1.22.5
 
 Node version: 
-  10.16.0
+  14.15.1
 
 Platform: 
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/collard_admin_model: Not found
+  Error: https://registry.yarnpkg.com/yanr: Not found
       at Request.params.callback [as _callback] (D:\yarn\lib\cli.js:66097:18)
       at Request.self.callback (D:\yarn\lib\cli.js:140749:22)
-      at Request.emit (events.js:198:13)
+      at Request.emit (events.js:315:20)
       at Request.<anonymous> (D:\yarn\lib\cli.js:141721:10)
-      at Request.emit (events.js:198:13)
+      at Request.emit (events.js:315:20)
       at IncomingMessage.<anonymous> (D:\yarn\lib\cli.js:141643:12)
-      at Object.onceWrapper (events.js:286:20)
-      at IncomingMessage.emit (events.js:203:15)
-      at endReadableNT (_stream_readable.js:1129:12)
-      at process._tickCallback (internal/process/next_tick.js:63:19)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
 
 npm manifest: 
   {
@@ -37,22 +37,27 @@ npm manifest:
       "src"
     ],
     "engines": {
-      "node": ">=10"
+      "node": "14.15.1"
     },
     "scripts": {
       "start": "ts-node dist/index.js",
+      "prestart": "yarn build",
       "build": "tsdx build",
       "test": "tsdx test",
       "lint": "tsdx lint",
       "prepare": "tsdx build",
       "size": "size-limit",
       "analyze": "size-limit --why",
-      "local": "nodemon src/index.ts"
+      "local": "nodemon src/index.ts",
+      "seedCntr": "ts-node src/seed/country/country_seed.ts",
+      "seedLang": "ts-node src/seed/language/language_seed.ts",
+      "seed": "yarn seedCntr && yarn seedLang",
+      "prettier-format": "prettier --write src/**/*.ts"
     },
     "peerDependencies": {},
     "husky": {
       "hooks": {
-        "pre-commit": "tsdx lint"
+        "pre-commit": "yarn prettier-format"
       }
     },
     "prettier": {
@@ -85,11 +90,15 @@ npm manifest:
     "dependencies": {
       "@types/express": "^4.17.8",
       "@types/mongodb": "^3.5.32",
+      "@types/uuid": "^8.3.0",
+      "collard_admin_models": "^1.2.1",
       "dotenv": "^8.2.0",
       "express": "^4.17.1",
       "mongodb": "^3.6.2",
       "nodemon": "^2.0.6",
-      "tsyringe": "^4.3.0"
+      "reflect-metadata": "^0.1.13",
+      "tsyringe": "^4.3.0",
+      "uuid": "^8.3.1"
     }
   }
 
@@ -1285,6 +1294,13 @@ Lockfile:
     dependencies:
       defer-to-connect "^1.0.1"
   
+  "@types/ajv-errors@^1.0.2":
+    version "1.0.2"
+    resolved "https://registry.yarnpkg.com/@types/ajv-errors/-/ajv-errors-1.0.2.tgz#963eadef9bfb51c47d110281433b626324a63329"
+    integrity sha512-lPgE0OZUGD9xZqj/83mSpdZzGQVY553/uCxmAEOSYUwlfW+azx/yYVUYZurmoiUhzRt+K4GKfOXPvKJmFdA6lg==
+    dependencies:
+      ajv "*"
+  
   "@types/babel__core@^7.1.7":
     version "7.1.12"
     resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.12.tgz#4d8e9e51eb265552a7e4f1ff2219ab6133bdfb2d"
@@ -1486,6 +1502,11 @@ Lockfile:
     version "1.0.1"
     resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
     integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
+  
+  "@types/uuid@^8.3.0":
+    version "8.3.0"
+    resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-8.3.0.tgz#215c231dff736d5ba92410e6d602050cce7e273f"
+    integrity sha512-eQ9qFW/fhfGJF8WKHGEHZEyVWfZxrT+6CLIJGBcZPfxUh/+BnEj+UCGYMlr9qZuX/2AltsvwrGqp0LhEW8D0zQ==
   
   "@types/yargs-parser@*":
     version "15.0.0"
@@ -1748,7 +1769,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.4.1.tgz#feaed255973d2e77555b83dbc08851a6c63520fa"
     integrity sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
   
-  ajv-errors@^1.0.0:
+  ajv-errors@^1.0.0, ajv-errors@^1.0.1:
     version "1.0.1"
     resolved "https://registry.yarnpkg.com/ajv-errors/-/ajv-errors-1.0.1.tgz#f35986aceb91afadec4102fbd85014950cefa64d"
     integrity sha512-DCRfO/4nQ+89p/RK43i8Ezd41EqdGIU4ld7nGF8OQ14oc/we5rEntLCUa7+jrn3nn83BosfwZA0wb4pon2o8iQ==
@@ -1758,7 +1779,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-3.5.2.tgz#31f29da5ab6e00d1c2d329acf7b5929614d5014d"
     integrity sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==
   
-  ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.3, ajv@^6.12.5:
+  ajv@*, ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.3, ajv@^6.12.5:
     version "6.12.6"
     resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"
     integrity sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==
@@ -2714,6 +2735,14 @@ Lockfile:
       "@types/q" "^1.5.1"
       chalk "^2.4.1"
       q "^1.1.2"
+  
+  collard_admin_models@^1.2.1:
+    version "1.2.1"
+    resolved "https://registry.yarnpkg.com/collard_admin_models/-/collard_admin_models-1.2.1.tgz#ea52390778467c1f904f786c06a9d5b7295296ed"
+    integrity sha512-YwzzpNu34R+iuTc0/h9lMwiSuU0LCgnmBEZFPgr3edRFTuibWvAZiUkuUBowS5IadcXnMAU3So9s5SyM+sF5/Q==
+    dependencies:
+      "@types/ajv-errors" "^1.0.2"
+      ajv-errors "^1.0.1"
   
   collect-v8-coverage@^1.0.0:
     version "1.0.1"
@@ -7592,6 +7621,11 @@ Lockfile:
     dependencies:
       resolve "^1.1.6"
   
+  reflect-metadata@^0.1.13:
+    version "0.1.13"
+    resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
+    integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
+  
   regenerate-unicode-properties@^8.2.0:
     version "8.2.0"
     resolved "https://registry.yarnpkg.com/regenerate-unicode-properties/-/regenerate-unicode-properties-8.2.0.tgz#e5de7111d655e7ba60c057dbe9ff37c87e65cdec"
@@ -9241,6 +9275,11 @@ Lockfile:
     version "3.4.0"
     resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
     integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+  
+  uuid@^8.3.1:
+    version "8.3.1"
+    resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.1.tgz#2ba2e6ca000da60fce5a196954ab241131e05a31"
+    integrity sha512-FOmRr+FmWEIG8uhZv6C2bTgEVXsHk08kE7mPlrBbEe+c3r9pjceVPgupIfNIhc4yx55H69OXANrUaSuu9eInKg==
   
   v8-compile-cache@^2.0.3:
     version "2.2.0"
