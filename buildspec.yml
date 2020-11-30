@@ -11,6 +11,7 @@ phases:
   pre_build:
     commands:
       - echo Prebuild
+      - yarn install
   build:
     commands:
       - echo Build started on `date`
