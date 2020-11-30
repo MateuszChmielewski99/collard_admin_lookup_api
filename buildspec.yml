@@ -17,6 +17,9 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-  artifacts:
-    files: 
-      - '**/*'
+cache:
+  paths:
+    - node_modules/**/*
+artifacts:
+  files: 
+    - '**/*'
