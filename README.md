@@ -3,4 +3,5 @@ REST Api created with TypeScript, Express and of course node.js. This simple API
 Avaiable routes: 
  * country/get_all
  * language/get_all 
+ </br>
  This api was deployed to AWS Elastic beanstalk, using Code Pipeline and CodeBuild.
